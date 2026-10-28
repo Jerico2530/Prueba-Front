@@ -1,0 +1,10 @@
+<script setup>
+import AppNavbar from './components/layout/AppNavbar.vue'
+import ToastContainer from './components/ui/ToastContainer.vue'
+</script>
+
+<template>
+  <AppNavbar />
+  <RouterView />
+  <ToastContainer />
+</template>
